@@ -1,3 +1,4 @@
 double calculatePercentage(int total, int amount) {
-    return (amount / total) * 100;
-  }
+  if (total == 0) return 0; 
+  return (amount / total) * 100;
+}
